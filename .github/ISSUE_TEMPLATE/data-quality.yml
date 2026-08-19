@@ -1,0 +1,49 @@
+name: Data-quality report
+description: Report incorrect, missing, stale, or point-in-time unsafe data
+title: "[Data]: "
+labels:
+  - data-quality
+  - "area: data"
+  - needs-triage
+body:
+  - type: input
+    id: provider
+    attributes:
+      label: Provider or dataset
+    validations:
+      required: true
+  - type: input
+    id: observation
+    attributes:
+      label: Ticker, field, and observation date
+      placeholder: AAPL, diluted EPS, 2025-09-30
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Explain the incorrect, missing, stale, adjusted, or future-visible observation.
+    validations:
+      required: true
+  - type: textarea
+    id: provenance
+    attributes:
+      label: Reproducible provenance
+      description: Include source identifiers, access time, filing or dataset revision, and sanitized fixture evidence.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected treatment
+      description: State the expected value and point-in-time availability rule, with a source where possible.
+    validations:
+      required: true
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Data handling
+      options:
+        - label: I removed credentials, personal data, and content that cannot legally be redistributed.
+          required: true

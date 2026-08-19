@@ -1,0 +1,40 @@
+name: Feature proposal
+description: Propose a focused improvement to V2
+title: "[Feature]: "
+labels:
+  - enhancement
+  - needs-triage
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What research or engineering problem should be solved?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe behavior, interfaces, and alternatives considered.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and methodology
+      description: Cite formula definitions, provider documentation, papers, fixtures, or comparable implementations where relevant.
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks and limitations
+      description: Address look-ahead bias, survivorship bias, licensing, privacy, compatibility, or migration risks.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched for existing issues and roadmap entries.
+          required: true
+        - label: This proposal does not require copying unlicensed historical code.
+          required: true
