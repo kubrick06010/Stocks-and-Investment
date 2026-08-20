@@ -1,0 +1,37 @@
+{
+  "acquired_at": "2026-08-20",
+  "artifact_bytes": 5534813,
+  "artifact_sha256": "fcce91f5b1ea66ad687b847a6b0e36538c93cb51d0d6c7ac8d65a04b2c71d306",
+  "attribution": "Finance_Broski, Survivorship-Free Indian Equity Data (NSE/BSE)",
+  "creator": "Finance_Broski",
+  "dataset_id": 10814586,
+  "dataset_version": 3,
+  "files": {
+    "fundamentals_sample.csv": {
+      "bytes": 31366,
+      "sha256": "c32b445667d028b6269f209aa458a6f9c0a6de1fbcd0748d5e7892b09b49cc0b"
+    },
+    "prices_sample.csv": {
+      "bytes": 21489968,
+      "sha256": "cdebaeb34c8b4b83987504082685c9de52824c63c5fe026a88711e05aa395142"
+    },
+    "survivorship_universe.csv": {
+      "bytes": 326328,
+      "sha256": "bfe1e11b47d9056db7d6aaa41f04b3e6d6aeb468c4a7869153483b330fe7488e"
+    }
+  },
+  "fitness": "PILOT_ONLY_NO_GO_FOR_ECONOMIC_VALIDATION",
+  "full_panel_access_request": "https://github.com/Finance-broski/pit-data-sample/issues/1",
+  "license": "CC-BY-4.0",
+  "license_uri": "https://creativecommons.org/licenses/by/4.0/",
+  "published_at": "2026-06-23T08:36:36.933Z",
+  "snapshot_id": "financebroski-india-pit-sample-kaggle-v3",
+  "source_uri": "https://www.kaggle.com/datasets/financebroski/survivorship-free-indian-equity-data-nsebse",
+  "title": "Survivorship-Free Indian Equity Data (NSE/BSE)",
+  "upstream_assertions_not_independently_verified": [
+    "announce_date is first public availability at date precision",
+    "tr_close is corporate-action-adjusted total return",
+    "inactive inventory is complete for the declared source universe",
+    "the full maintained panel contains point-in-time universe membership"
+  ]
+}
