@@ -1,6 +1,15 @@
 email_passwd.init
 TOKEN
 *.pyc
+.DS_Store
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+build/
+dist/
+*.egg-info/
 .htaccess
 css.php
 rpc/
@@ -12,4 +21,5 @@ sites/site*/public/theme/
 textpattern/
 HISTORY.txt
 README.txt
-
+data/external/
+data/derived/
