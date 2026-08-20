@@ -1,0 +1,36 @@
+{
+  "company": "LOSS Synthetic Industries",
+  "ticker": "LOSS",
+  "as_of": "2025-05-03",
+  "period_end": "2025-03-31",
+  "currency": "USD",
+  "inputs": {
+    "price": 20.0,
+    "shares_outstanding": 50.0,
+    "debt": 600.0,
+    "cash": 10.0,
+    "book_value": -100.0,
+    "current_assets": 300.0,
+    "current_liabilities": 500.0,
+    "revenue": 200.0,
+    "revenue_prior": 250.0,
+    "eps": -2.0,
+    "eps_prior": -1.0,
+    "net_income": -100.0,
+    "operating_cash_flow": -50.0,
+    "capital_expenditures": 80.0,
+    "common_equity": -100.0,
+    "total_assets": 700.0
+  },
+  "expected": {
+    "market_cap": 1000.0,
+    "enterprise_value": 1590.0,
+    "book_value": -100.0,
+    "book_value_per_share": -2.0,
+    "current_ratio": 0.6,
+    "revenue_growth": -0.2,
+    "fcf": -130.0,
+    "roe": 1.0
+  },
+  "methodology": "Synthetic loss-making and negative-equity case for semantic edge validation; P/E, P/B, ROE and Graham interpretations require explicit not-meaningful policies."
+}
